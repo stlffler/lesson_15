@@ -1,0 +1,38 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #fff url(../img/background.jpeg) center no-repeat;
+	background-size: cover;
+}
+h1 {
+	margin: 0;
+}
+input {
+	display: block;
+	margin-bottom: 15px;
+	padding: 22px;
+	font-size: 18px;
+	border: 1px solid #FF6347;
+	width: 50%;
+}
+input:focus, button:focus {
+	outline: none;
+}
+button {
+	padding: 22px;
+	background-color: #FF6347;
+	width: 50%;
+}
+.popup {
+	display: none;
+	margin-top: 15px;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid black; 
+	width: 50%;
+}
+.container {
+	margin-top: 45px;
+	padding: 22px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
